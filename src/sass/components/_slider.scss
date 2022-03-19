@@ -1,0 +1,49 @@
+.slider {
+  height: 100vh;
+  @include flex(center, center);
+
+  &__title {
+    color: var(--white);
+    font-size: 50px;
+
+    &__sub {
+      color: var(--white);
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__cards {
+    @include flex(center, center);
+
+    .iko-card {
+      flex: 1;
+      text-align: center;
+      border-color: transparent;
+      background-color: var(--transparent-black-3);
+
+      ~ .iko-card {
+        margin-left: 20px;
+      }
+
+      a {
+        text-align: center;
+        display: block;
+        padding: 10px;
+        color: var(--white);
+
+        i {
+          font-size: 28px;
+          margin-bottom: 15px;
+        }
+
+        span {
+          display: block;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

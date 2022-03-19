@@ -1,0 +1,27 @@
+.about-book {
+  color: #9a9a9a;
+  &__title {
+    font-size: 36px;
+    color: #555;
+    &__sub {
+      letter-spacing: 1px;
+      font-weight: 400;
+      font-size: 14px;
+      margin-bottom: 10px;
+      color: #9a9a9a;
+    }
+  }
+
+  &__price {
+    font-size: 30px;
+    color: #555;
+
+    del {
+      color: #9a9a9a;
+    }
+
+    .text {
+      font-size: 14px;
+    }
+  }
+}
