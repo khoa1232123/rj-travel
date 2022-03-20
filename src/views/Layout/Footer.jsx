@@ -1,6 +1,5 @@
 import React from "react";
-import Menu from "../../components/Layout/Menu";
-import Newsletter from "../../components/Layout/Newsletter";
+import { Menu, Newsletter } from "../../components";
 import { menuFooter1, menuFooter2, menuFooter3 } from "../../data/menu";
 import { IkoCol, IkoContainer, IkoRow, IkoTitle } from "../../ikoComponents";
 import logo from "../../imgs/logo-color.png";

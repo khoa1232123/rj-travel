@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "../../components/Layout/Menu";
+import { Menu } from "../../components";
 import { menuHeader } from "../../data/menu";
 import { IkoCol, IkoContainer, IkoRow } from "../../ikoComponents";
 import logo from "../../imgs/logo.png";

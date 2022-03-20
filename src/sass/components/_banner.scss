@@ -1,0 +1,134 @@
+.banner-one {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  .iko-row {
+    @include flex(center, center);
+  }
+
+  &__btn {
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+.banner-two {
+  &__background {
+    background: no-repeat center center;
+    background-size: cover;
+  }
+
+  &__content {
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  &__title {
+    font-size: 36px;
+    color: var(--white);
+
+    &__sub {
+      font-weight: 400;
+      font-size: 14px;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+  }
+
+  &__btn {
+    border-radius: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+}
+
+.destinations {
+  margin: 100px 0;
+
+  &__title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #555;
+
+    &__sub {
+      font-size: 14px;
+      color: #9a9a9a;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.destination {
+  &__item {
+    position: relative;
+    &__thumbnail {
+      width: 100%;
+      height: 400px;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &__content {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      @include flex(flex-end, flex-end);
+
+      &__two {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        @include flex(center, center);
+      }
+    }
+  }
+}
+
+.option-icons {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.box-icon {
+  &__icon {
+    font-size: 40px;
+    width: 30%;
+    margin-right: 10px;
+    i {
+      color: #555;
+    }
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  &__desc {
+    color: #9a9a9a;
+    margin: 20px 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+  }
+
+  &__btn {
+    a {
+      color: #14b9d5;
+    }
+  }
+}

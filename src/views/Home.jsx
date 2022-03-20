@@ -1,12 +1,22 @@
 import React from "react";
-import AboutBook from "../components/AboutBook";
-import Slider from "../components/Slider";
+import {
+  AboutBook,
+  BannerOne,
+  Destinations,
+  OptionIcons,
+  Slider,
+} from "../components";
+import BannerTwo from "../components/BannerTwo";
 
 const Home = () => {
   return (
     <div className="home">
       <Slider />
+      <Destinations />
       <AboutBook />
+      <BannerOne />
+      <OptionIcons />
+      <BannerTwo />
     </div>
   );
 };

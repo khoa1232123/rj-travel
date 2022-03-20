@@ -7,6 +7,9 @@ import {
   IkoSlider,
   IkoTitle,
 } from "../ikoComponents";
+import img1 from "../imgs/parallax-10.jpg";
+import img2 from "../imgs/parallax-11.jpg";
+import img3 from "../imgs/parallax-12.jpg";
 
 const AboutBook = () => {
   return (
@@ -34,10 +37,16 @@ const AboutBook = () => {
             </IkoButton>
           </IkoCol>
           <IkoCol col={8}>
-            <IkoSlider>
-              <IkoSlider.Item>1</IkoSlider.Item>
-              <IkoSlider.Item>1</IkoSlider.Item>
-              <IkoSlider.Item>1</IkoSlider.Item>
+            <IkoSlider className="style-2 about-book__slider">
+              <IkoSlider.Item>
+                <img src={img1} alt="" />
+              </IkoSlider.Item>
+              <IkoSlider.Item>
+                <img src={img2} alt="" />
+              </IkoSlider.Item>
+              <IkoSlider.Item>
+                <img src={img3} alt="" />
+              </IkoSlider.Item>
             </IkoSlider>
           </IkoCol>
         </IkoRow>
