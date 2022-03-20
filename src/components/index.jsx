@@ -5,3 +5,4 @@ export { default as Menu } from "./Layout/Menu";
 export { default as Newsletter } from "./Layout/Newsletter";
 export { default as OptionIcons } from "./OptionIcons";
 export { default as Destinations } from "./Destinations";
+export { default as Packages } from "./Packages";

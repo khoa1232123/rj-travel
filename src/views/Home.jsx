@@ -4,6 +4,7 @@ import {
   BannerOne,
   Destinations,
   OptionIcons,
+  Packages,
   Slider,
 } from "../components";
 import BannerTwo from "../components/BannerTwo";
@@ -17,6 +18,7 @@ const Home = () => {
       <BannerOne />
       <OptionIcons />
       <BannerTwo />
+      <Packages />
     </div>
   );
 };
